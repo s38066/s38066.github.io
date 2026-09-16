@@ -1,38 +1,204 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="th">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>บุษรินทร์ อุณาธิเนย์</title>
-    <style>
-        body {
-            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-            background-color: #3a65ab;
-            color: #333;
-            text-align: center;
-            padding: 50px;
-        }
-        .card {
-            background: white;
-            padding: 30px;
-            border-radius: 50px;
-            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
-            max-width: 500px;
-            margin: 0 auto;
-        }
-        h1 { color: #2c3e50; }
-        p { font-size: 18px; line-height: 1.6; }
-    </style>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>NON — Portfolio</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+  <link
+    href="https://fonts.googleapis.com/css2?family=Press+Start+2P&family=Prompt:wght@400;500;600;700&display=swap"
+    rel="stylesheet"
+  >
+
+  <link rel="stylesheet" href="assets/style.css">
 </head>
+
 <body>
 
-    <div class="card">
-        <h1>ยินดีต้อนรับสู่โปรไฟล์ของฉัน 👋</h1>
-        <p>สวัสดีค่ะ! ดิฉันชื่อ <strong>บุษรินทร์ (Busarin)</strong></p>
-        <p>ขณะนี้กำลังศึกษา/สนใจด้าน ศิลปกรรม </p>
-        <p>นี่คือเว็บไซต์แรกของดิฉันที่โฮสต์บน GitHub Pages!</p>
-         <a href="portfolio.html" style="display:inline-block; background:#3498db; color:white; padding:10px 20px; text-decoration:none; border-radius:5px; margin-top:15px;">👉 ดูแฟ้มสะสมงานของฉัน</a>
+<header class="site-header">
+
+  <a class="brand" href="index.html">
+    <span class="brand-cat">🐱</span>
+    <span>NON'S PIXEL PORTFOLIO</span>
+  </a>
+
+  <button class="menu-toggle" aria-label="เปิดเมนู">
+    ☰
+  </button>
+
+  <nav class="nav">
+
+    <a class="active" href="index.html">
+      ⌂ HOME
+    </a>
+
+    <a href="about.html">
+      ♡ ABOUT
+    </a>
+
+    <a href="portfolio.html">
+      ✦ PORTFOLIO
+    </a>
+
+    <a href="contact.html">
+      ✉ CONTACT
+    </a>
+
+  </nav>
+
+</header>
+
+
+<main>
+
+  <!-- HERO -->
+
+  <section class="hero shell">
+
+    <div class="hero-copy">
+
+      <p class="eyebrow">
+        WELCOME TO MY LITTLE WORLD ✦
+      </p>
+
+      <h1>
+        HELLO, I'M <span>NON</span>!
+      </h1>
+
+      <p class="lead">
+        ยินดีต้อนรับสู่เว็บไซต์พอร์ตฟอริโอ้ส่วนตัวของผม
+        <br>
+        ดีไซน์แบบ Pixel Art โทนชมพู–ม่วงน่ารัก ๆ
+      </p>
+
+      <div class="actions">
+
+        <a class="btn primary" href="portfolio.html">
+          ดูผลงาน →
+        </a>
+
+        <a class="btn" href="about.html">
+          รู้จักผม
+        </a>
+
+      </div>
+
     </div>
+
+
+    <!-- Pixel Art -->
+
+    <div class="hero-art pixel-card">
+
+      <div class="cloud">
+        ✦
+      </div>
+
+      <div class="cup">
+        ☕
+      </div>
+
+      <div class="cat">
+        ฅ^•ﻌ•^ฅ
+      </div>
+
+      <div class="saucer"></div>
+
+    </div>
+
+  </section>
+
+
+  <!-- QUICK LINKS -->
+
+  <section class="quick-links shell">
+
+    <a class="quick-card" href="portfolio.html">
+
+      <span>🎨</span>
+
+      <div>
+        <b>PORTFOLIO</b>
+        <small>ผลงานของฉัน</small>
+      </div>
+
+    </a>
+
+
+    <a class="quick-card" href="about.html">
+
+      <span>🐾</span>
+
+      <div>
+        <b>ABOUT ME</b>
+        <small>เกี่ยวกับตัวฉัน</small>
+      </div>
+
+    </a>
+
+
+    <a class="quick-card" href="contact.html">
+
+      <span>💌</span>
+
+      <div>
+        <b>CONTACT</b>
+        <small>ติดต่อและโซเชียล</small>
+      </div>
+
+    </a>
+
+  </section>
+
+
+  <!-- INTRO -->
+
+  <section class="intro shell">
+
+    <div>
+
+      <p class="eyebrow">
+        A LITTLE INTRO
+      </p>
+
+      <h2>
+        สร้างงานด้วยความตั้งใจ
+        <br>
+        และเติมความน่ารักลงไปอีกนิด ♡
+      </h2>
+
+    </div>
+
+
+    <p>
+      เว็บไซต์นี้เป็น Portfolio ส่วนตัว
+      สำหรับแนะนำตัว แสดงผลงาน และช่องทางการติดต่อ
+      โดยออกแบบในสไตล์ Pixel Art / Pastel
+    </p>
+
+  </section>
+
+</main>
+
+
+<footer class="footer">
+
+  <span>
+    Made with ♡ & pixels
+  </span>
+
+  <span>
+    © 2026 NON
+  </span>
+
+</footer>
+
+
+<script src="assets/script.js"></script>
 
 </body>
 </html>
