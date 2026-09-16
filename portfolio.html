@@ -1,37 +1,223 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="th">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>แฟ้มสะสมงานของฉัน</title>
-    <style>
-        body { font-family: sans-serif; background-color: #f4f7f6; text-align: center; padding: 30px; }
-        .container { max-width: 800px; margin: 0 auto; }
-        .project-card { background: white; padding: 20px; margin: 20px 0; border-radius: 8px; box-shadow: 0 2px 5px rgba(0,0,0,0.1); text-align: left; }
-        .btn { display: inline-block; background: #2c3e50; color: white; padding: 10px 20px; text-decoration: none; border-radius: 5px; margin-top: 20px; }
-    </style>
+
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Portfolio — NON</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+  <link
+    href="https://fonts.googleapis.com/css2?family=Press+Start+2P&family=Prompt:wght@400;500;600;700&display=swap"
+    rel="stylesheet"
+  >
+
+  <link rel="stylesheet" href="assets/style.css">
+
 </head>
+
+
 <body>
 
-    <div class="container">
-        <h1>📁 แฟ้มสะสมงาน (Portfolio)</h1>
-        <p>นี่คือพื้นที่รวบรวมผลงานและกิจกรรมที่ภูมิใจค่ะ</p>
 
-        <!-- กล่องผลงานชิ้นที่ 1 -->
-        <div class="project-card">
-            <h3>1. โครงงาน/ชิ้นงานวิทยาศาสตร์คำนวณ</h3>
-            <p>รายละเอียดชิ้นงาน: เขียนอธิบายสั้นๆ ว่าทำอะไร ได้เรียนรู้อะไรจากงานนี้บ้าง</p>
-        </div>
+<header class="site-header">
 
-        <!-- กล่องผลงานชิ้นที่ 2 -->
-        <div class="project-card">
-            <h3>2. กิจกรรม/เกียรติบัตรที่ได้รับ</h3>
-            <p>รายละเอียดชิ้นงาน: เข้าร่วมการประกวด หรือกิจกรรมของโรงเรียน...</p>
-        </div>
+  <a class="brand" href="index.html">
 
-        <!-- ปุ่มกดกลับหน้าแรก -->
-        <a href="index.html" class="btn">🔙 กลับหน้าแรก</a>
+    <span class="brand-cat">
+      🐱
+    </span>
+
+    <span>
+      NON'S PIXEL PORTFOLIO
+    </span>
+
+  </a>
+
+
+  <button class="menu-toggle" aria-label="เปิดเมนู">
+    ☰
+  </button>
+
+
+  <nav class="nav">
+
+    <a href="index.html">
+      ⌂ HOME
+    </a>
+
+    <a href="about.html">
+      ♡ ABOUT
+    </a>
+
+    <a class="active" href="portfolio.html">
+      ✦ PORTFOLIO
+    </a>
+
+    <a href="contact.html">
+      ✉ CONTACT
+    </a>
+
+  </nav>
+
+</header>
+
+
+
+<main>
+
+
+  <!-- TITLE -->
+
+  <section class="page-head shell">
+
+    <p class="eyebrow">
+      MY CREATIVE WORK ✦
+    </p>
+
+    <h1>
+      PORTFO<span>LIO</span>
+    </h1>
+
+    <p>
+      ผลงานของฉันมี 1 โปรเจกต์
+      — กดดูรายละเอียดและรูปผลงานได้ด้านล่าง
+    </p>
+
+  </section>
+
+
+
+  <!-- SINGLE PROJECT -->
+
+  <section class="single-project shell">
+
+
+    <!-- PROJECT IMAGE -->
+
+    <div class="featured-image work-image">
+
+      <img
+        src="assets/images/work-1.jpg"
+        alt="ผลงานของฉัน"
+        onerror="this.style.display='none';this.nextElementSibling.style.display='grid'"
+      >
+
+      <div class="placeholder">
+
+        ใส่รูปผลงานที่นี่
+
+        <br>
+
+        <small>
+          assets/images/work-1.jpg
+        </small>
+
+      </div>
+
     </div>
+
+
+
+    <!-- PROJECT DETAIL -->
+
+    <div class="paper project-detail">
+
+      <span class="tag">
+        MY PROJECT
+      </span>
+
+
+      <h2>
+        ชื่อผลงานของฉัน
+      </h2>
+
+
+      <p>
+        ใส่รายละเอียดของผลงานชิ้นนี้ได้ตรงนี้
+        เช่น แนวคิดของงาน หน้าที่ที่รับผิดชอบ
+        เครื่องมือที่ใช้ และผลลัพธ์ของโปรเจกต์
+      </p>
+
+
+      <div class="info-list">
+
+        <div>
+
+          <b>
+            TYPE
+          </b>
+
+          <span>
+            Web / Design
+          </span>
+
+        </div>
+
+
+        <div>
+
+          <b>
+            TOOLS
+          </b>
+
+          <span>
+            HTML • CSS • JavaScript
+          </span>
+
+        </div>
+
+
+        <div>
+
+          <b>
+            YEAR
+          </b>
+
+          <span>
+            2026
+          </span>
+
+        </div>
+
+      </div>
+
+
+      <a class="btn primary" href="contact.html">
+        ติดต่อเกี่ยวกับผลงาน →
+      </a>
+
+    </div>
+
+  </section>
+
+</main>
+
+
+
+<footer class="footer">
+
+  <span>
+    Made with ♡ & pixels
+  </span>
+
+  <span>
+
+    <a href="index.html">
+      กลับหน้าแรก ↑
+    </a>
+
+  </span>
+
+</footer>
+
+
+
+<script src="assets/script.js"></script>
 
 </body>
 </html>
