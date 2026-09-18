@@ -1014,3 +1014,100 @@ h2 span {
   }
 
 }
+/* =========================
+   HOME PROFILE PHOTO
+========================= */
+
+.hero-photo {
+
+  width: min(390px, 100%);
+
+  aspect-ratio: 1 / 1;
+
+  margin: auto;
+
+  position: relative;
+
+  background: var(--pink2);
+
+  border: 5px solid var(--purple);
+
+  box-shadow: 8px 8px 0 var(--purple);
+
+  padding: 18px;
+
+  transform: rotate(2deg);
+
+}
+
+
+.hero-photo img {
+
+  width: 100%;
+
+  height: 100%;
+
+  display: block;
+
+  object-fit: cover;
+
+  border: 4px solid var(--purple);
+
+}
+
+
+.photo-decoration {
+
+  position: absolute;
+
+  right: -18px;
+
+  top: -25px;
+
+  font-size: 42px;
+
+  color: #d991b1;
+
+  transform: rotate(-10deg);
+
+}
+
+
+.photo-heart {
+
+  position: absolute;
+
+  left: -20px;
+
+  bottom: 20px;
+
+  width: 55px;
+
+  height: 55px;
+
+  display: grid;
+
+  place-items: center;
+
+  background: var(--yellow);
+
+  border: 4px solid var(--purple);
+
+  box-shadow: 4px 4px 0 var(--purple);
+
+  font-size: 30px;
+
+}
+
+
+@media (max-width: 800px) {
+
+  .hero-photo {
+
+    width: 300px;
+
+    margin-top: 25px;
+
+  }
+
+}
